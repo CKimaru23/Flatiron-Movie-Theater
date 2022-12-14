@@ -1,0 +1,89 @@
+:root {
+   --bs-gray: #6c757d;
+
+}
+
+#filmTitle{
+   text-align: center;
+   background-color: #6c757d;
+   padding: 10px;
+}
+
+body{
+   background-color: lightgray;
+}
+
+#showingMovieTitle{
+   text-align: center;
+
+}
+
+#buyTicket {
+   padding: 10px;
+   margin-bottom: 40px;
+}
+
+#about{
+   list-style: none;
+}
+
+#poster{
+   width: 600px;
+   height: 610px;
+   border-bottom: cornsilk;
+}
+
+.test{
+   margin: 20px;
+   border-radius: 8px;
+}
+
+#theaterTitle {
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#tagline{
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color:gold;
+}
+#movieDescription{
+   text-align: center;
+   background-color: bisque;
+   border-color: bisque;
+   padding: 10px;
+   width: 600px;
+}
+#ticketsAvailable{
+   background-color: bisque;
+   border-color: bisque;
+   padding: 10px;
+   
+}
+
+ #showtime, #runtime{
+   background-color: bisque;
+   border-color: bisque;
+   padding: 10px;
+}
+
+
+#movie{
+   background-color: lightgray;
+}
+
+.movie:hover {
+   cursor: pointer;
+   padding: 20px;
+   background-color: bisque;
+}
+
+.movie:visited {
+   /* padding: 20px; */
+   background-color: lightskyblue;
+}
+
+#cont, #listContainer {
+   background-color: bisque;
+}
+
+
+

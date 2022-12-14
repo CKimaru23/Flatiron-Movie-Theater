@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head section. It has external links from bootstrap and some that I made -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Zen+Dots&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css">
+    <title>Flatdango Movie Theater</title> <!--Title-->
+</head>
+
+<!-- Body Section -->
+<body>
+  <!-- Top nav that contains the title and description -->
+  <nav class="navbar bg-light mt-4 test">
+    <div class="container-fluid text-bg-dark d-flex justify-content-center">
+      <h2 class="text-light" id="theaterTitle">FLATDANGO: &nbsp;</h2>
+      <h3 class="text-light"> A Flatiron Movie Theater</h3>
+    </div>
+
+    <div class="container-fluid text-bg-dark d-flex justify-content-center">
+      <h4 id="tagline">Experience the magic of the movies at our theater.</h4> <!--tagline-->
+    </div>
+  </nav>
+
+  <!-- menu of all movies on the left side of the page in the `ul#films` element when the page loads. -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="row mt-3">
+        <div class="card col-4" id="listContainer">
+          <div id="cont">
+            <h2 class="border rounded border-secondary mt-2 bg-secondary" id="showingMovieTitle">Showing Movies</h2>
+            <ul class="list-group" id="onScreen" >
+
+            </ul>
+          </div>
+
+          <div>
+            <ul id="soldOut">
+
+            </ul>
+          </div>
+
+        </div>
+
+
+        <div class="card col-8" id="movie">
+          <h4 class="card-title border border-success mt-2 rounded bg-info" id="filmTitle"></h4>
+          <img class="card-img-top" src="movie.jpg" alt="Film details" id="poster">
+          <p class="border border-primary mt-2 rounded" id="movieDescription"></p>
+          <ul class="d-flex justify-content-center me-2" id="about">
+            <li class="border border-success rounded me-2"  id="runtime"><span class="border-success me-2"></span></li>
+            <li class="border border-success rounded me-2" id="showtime"></li>
+            <li class="border border-success rounded me-2" id="ticketsAvailable"></li>
+          </ul>
+
+          <button type="button" class="btn btn-warning" id="buyTicket">Buy Ticket</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script type="text/javascript" src="bootstrap.js"></script>
+  <script type="text/javascript" src="bootstrap.bundle.js"></script>
+  <script type="text/javascript" src="bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>
